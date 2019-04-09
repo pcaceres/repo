@@ -15,6 +15,7 @@ namespace DigitalFramework
         {
             Tests.TestSuite ts = new Tests.TestSuite();
 
+            ts.Iniit();
             ts.OpenBrowser();
             ts.CloseBrowser();
            
